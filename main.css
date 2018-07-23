@@ -1,0 +1,27 @@
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    background: #DCC7BE;
+}
+.icon-top{
+    background:#0B4F6C; 
+    color:#ffffff;
+}
+
+.icon-top a{
+    color: #ffffff;
+    font-size: 25px;
+    transition: color 0.5s ease-in-out;
+}
+
+.icon-top a:hover{
+    color:#145C9E;
+}
+
+nav{
+    background: #1F271B;
+    color:#ffffff;
+}
+.nav-item{
+    color:#ffffff;
+}
