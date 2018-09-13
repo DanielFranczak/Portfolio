@@ -1,0 +1,437 @@
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    background: #DCC7BE;
+}
+.icon-top{
+    background:#0B4F6C; 
+    color:#ffffff;
+}
+
+.icon-top a{
+    color: #ffffff;
+    font-size: 25px;
+    transition: color 0.5s ease-in-out;
+}
+
+.icon-top a:hover{
+    color:#145C9E;
+}
+/*########################NAVBAR##############################*/
+/* nav{
+    background: #1F271B;
+    color:#ffffff;
+}
+.nav-item{
+    color:#ffffff;
+} */
+.navbar {
+    background:  #1F271B;
+    padding: 10px 20px;
+    transition: padding 0.5s ease;
+}
+.navbar-background{
+    padding: 2px 20px;
+}
+
+.navbar-brand{
+    color:#ffffff;
+    border: 3px solid #ffffff;
+    transition: all 0.5s ease;
+}
+
+.navbar-brand:hover{
+    background:#ffffff;
+}
+
+.bar1,
+.bar2,
+.bar3{
+    width: 23px;
+    height: 3px;
+    margin:5px;
+    background: #145C9E;
+    color: #ffffff;
+}
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+
+}
+.change .bar2{
+    opacity: 0;
+    
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px, -6px);
+    
+}
+
+.nav-link{
+    color:#f1fffa;
+    font-size:20px;
+    padding: 10px 20px!important;
+    border-radius: 5px;
+    transition: background 0.5s ease; 
+}
+
+.nav-link:hover{
+    background: #ffffff;
+}
+
+/* .nav-active{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px!important;
+    background: rgba(42, 145, 52, 0.6);
+} */
+
+.search-btn{
+    background: #ffffff;
+    transition: all 1 s ease;
+}
+.search-btn:hover{
+    color: rgb(255, 255, 255);
+    background: #145C9E;
+}
+.navbar-toggler{
+    border: 3px solid #ffffff;
+    transition: all 0.5s ease;
+} 
+/* SLIDER */
+
+.item-1,
+.item-2,
+.item-3
+{
+    min-height: 60vh;
+    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0 80%) Odpowiada za kształt carouseli */
+}
+
+.item-1{
+    background: linear-gradient( rgba(31, 39, 27, 1), rgba(94, 138, 226, 0.5)),url(dev.jpeg)center/cover fixed no-repeat;
+    /*background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+}
+.item-2{
+    background:  linear-gradient( rgba(31, 39, 27, 1), rgba(94, 138, 226, 0.5)), url("engineer.jpeg")center/cover fixed no-repeat;
+    /*background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+}
+.item-3{
+    background:  linear-gradient( rgba(31, 39, 27, 1), rgba(94, 138, 226, 0.5)), url("1.jpeg")center/cover fixed no-repeat;
+    /*background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+}
+
+.no-padding {
+    padding:0;
+}
+.banner-btn {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s ease;
+    box-shadow: 0 1px 5px rgba(0 , 0, 0, 0.3);
+}
+.banner-btn:hover{
+color: #145C9E;
+background: #ffffff;
+transform: scale(1.1, 1.1);
+box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
+}
+/*title*/
+.title h1{
+    color:#000000;
+}
+.title h3{
+    color: #0B4F6C;
+
+}
+.title-underline{
+height: 5px;
+width: 250px;
+background: #0B4F6C;
+margin: -28px auto 0 auto;
+}
+.title a{
+    color: #0B4F6C;
+    font-size: 30px;
+    padding: 0 10px;
+    display: inline-block;
+    background: #DCC7BE;
+}
+/*Skills*/
+.skills-icon{
+    background: #1F271B;
+    transition: all 0.5s ease;
+    /*border-radius: 50%;*/
+    /*clip-path: circle(38%);*/
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+
+}
+.skills-icon span{
+    color: #909090;
+    font-size: 100px;
+    transition: all 0.5s ease-in-out;
+    display: block;
+
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+.skills-icon:hover span{
+    color: #ffffff;
+    transform:  scale(1.1) translateX(20%);
+    
+
+    
+    
+    
+}
+.skills-icon:hover{
+    background: #0B4F6C
+}
+/* .span:hover{
+    transform: translate(20px, 0px)!important;
+} */
+/*about section */
+#about{
+    min-height: 40vh;
+    background: #909090 ;
+    /*clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);*/
+}
+
+#about .title a{
+    background: #DCC7BE ;
+}
+.about-text a{
+    color: #ffffff;
+    background: #0B4F6C;
+    border: 2px solid #0B4F6C ;
+    transition: all 1s;
+    box-shadow: 0 1px 5px rgba(0 , 0, 0, 0.3);
+}
+.about-text a:hover{
+    color: #0B4F6C;
+    background: #ffffff;
+    border: 2px solid #0B4F6C ;
+    transition: all 1s;
+    box-shadow: 0 1px 5px rgba(0 , 0, 0, 0.3);
+}
+.about-progress{
+    min-height: 340 vh;
+    background: linear-gradient( rgba(31, 39, 27, 0.1), rgba(94, 138, 226, 0.3)),url("pm.jpg") center/cover fixed no-repeat;
+    outline: 5px solid #0B4F6C;
+}
+.progress-bar {
+    color: #ffffff;
+    background: #0B4F6C;
+}
+.bar h5 span{
+    color: #0B4F6C;
+}
+
+/* modal-filler */
+#modal-filler{
+    min-height: 50vh;
+    background: linear-gradient( rgba(31, 39, 27, 1), rgba(94, 138, 226, 0.3)),url("pm.jpg") center/cover fixed no-repeat;
+}
+#modal-filler a{
+    color: #1F271B;
+    font-size: 90px;
+    animation: myAnimation 3s ease infinite;
+}
+@keyframes myAnimation {
+    
+    
+    50%{
+        transform: scale(1.5);
+        color: #0B4F6C;
+    }
+}
+/* Projects */
+
+#projects button{
+    background: #0B4F6C;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    /*border: 2px solid #ffffff;*/
+}
+
+#projects button:hover {
+    background: #ffffff;
+    color: #0B4F6C;
+}
+
+.img-container{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(94, 138, 226, 0.9),rgba(94, 138, 226, 0.9));
+}
+
+.img-container img{
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    
+}
+
+.img-container:hover .project-image{
+    opacity: 0.3;
+    transform: scale(1.15);
+}
+
+.search-link {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: #0B4F6C;
+    transition: all 1s ease;
+    margin-top: -50%;
+    opacity: 0;
+}
+
+.img-container:hover .search-link{
+    margin-top: 0;
+    opacity: 1;
+    
+}
+
+.search-link:hover{
+    color: #ffffff;
+
+}
+
+#current-project{
+background: #909090;
+clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+.current-project-photo{
+    position: relative;
+    min-height: 50vh;
+} 
+.current-project{
+    width:50%;
+    height: 50%;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+
+} 
+/*check the z-index problem, only 1 and 2 photo are showing as the first in the stack of pictures (if the z-index is higer then photo in hierarchy is higher */
+.current-project:hover{
+    z-index: 51;
+    transform: scale(1.1);
+}  
+.current-project-1{
+    top:0;
+    left: 10%;
+    transform: rotate(-15deg);
+    z-index: 20;
+}
+.current-project-2{
+    top:0;
+    left: 48%;
+    transform: rotate(9deg);
+    z-index: 30;
+}
+.current-project-3{
+    top:40%;
+    left:8%;
+    transform: rotate(-5deg);
+    
+}
+.current-project-4{
+    top:41%;
+    left: 40%;
+    transform: rotate(38deg);
+    
+}
+
+/* Posts */
+#posts .card{
+    background: transparent;
+    border: none;
+    position: relative;
+
+}
+
+#posts .card-img-top{
+    border-radius: 0 !important;
+
+}
+
+#posts .card-footer{
+    background: transparent;
+
+}
+
+#post-link{
+    color: #000000;
+    transition: all 1s ease-in-out;
+}
+
+.post-link:hover{
+    color:  #145C9E;
+    text-decoration: none;
+}
+
+.corner-text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #145C9E;
+    opacity: 0; 
+    transition: all 1s ease-in-out;
+}
+
+#posts .card:hover .corner-text{
+    opacity: 1;
+
+}
+/* COntact form */
+#contact-form{
+    min-height: 50vh;
+    background: linear-gradient( rgba(31, 39, 27, 1), rgba(94, 138, 226, 0.3)),url(contact-form.jpg) center/cover fixed no-repeat ;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100% );
+}  
+
+.height-30{
+    min-height: 30 vh;
+}
+#contact-form h1{
+    color: #ffffff;
+}
+
+#contact-form .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color:#ffffff;
+}
+.form-control::placeholder{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#contact-form button{
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 0;
+    transition: all 1s ease;
+
+}
+
+#contact-form button:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #145C9E;
+}
