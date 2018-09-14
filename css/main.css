@@ -435,3 +435,43 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
     border-color: #ffffff;
     color: #145C9E;
 }
+
+/* MY VALUES SECTIOOOON */ 
+.value {
+    position: relative;
+}
+
+.value-icon{
+    font-size: 40px;
+    color: #ffffff;
+    background: #0B4F6C;
+    padding: 35px 35px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    transition: all 1s ease;
+
+}
+
+.value-number{
+    color: #ffffff;
+    padding: 15px;
+    background: #145C9E;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    top: -12%;
+    left: 57%;
+    transition: all 1s ease;
+    
+}
+
+.value:hover .value-icon{
+    background: #145C9E;
+    transform: scale(1.1);
+}
+
+.value:hover .value-number{
+    background: #0B4F6C;
+    transform: scale(1.2);
+}
