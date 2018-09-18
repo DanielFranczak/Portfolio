@@ -550,3 +550,15 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
     text-decoration: none;
     color: #909090;
 }
+
+/* Numbers */
+
+.number{
+    background: #0B4F6C;
+    color: #ffffff;
+    transition: all 1s ease;
+}
+.number:hover{
+    background: #ffffff;
+    color:#0B4F6C;
+}
