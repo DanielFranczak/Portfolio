@@ -562,3 +562,8 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
     background: #ffffff;
     color:#0B4F6C;
 }
+
+/*contact */
+.height-80{
+    min-height: 80vh;
+}
