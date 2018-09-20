@@ -567,3 +567,6 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 .height-80{
     min-height: 80vh;
 }
+#contact{
+    background: linear-gradient( rgba(31, 39, 27, 1), rgba(94, 138, 226, 0.5)),url(dev.jpeg)center/cover fixed no-repeat;
+}
