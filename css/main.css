@@ -570,3 +570,58 @@ clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 #contact{
     background: linear-gradient( rgba(31, 39, 27, 1), rgba(94, 138, 226, 0.5)),url(dev.jpeg)center/cover fixed no-repeat;
 }
+#contact .card{
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 2s ease;
+}
+#contact .card:hover{
+    background: rgba(94, 138, 226, 0.8);
+    transition: all 2s ease;
+}
+
+#contact .card-header{
+    color: #ffffff;
+}
+
+#contact .input-group-text{
+    background: #0B4F6C;
+    border-color: #1F271B;
+    color: #ffffff;
+}
+
+#contact .card input::placeholder{
+    color: #606060;
+}
+
+.contact-btn{
+    color: #ffffff;
+    background: #0B4F6C;
+    transition: all 2s ease-in-out;
+
+}
+.contact-btn:hover{
+    color: #ffffff;
+    background: transparent;
+    border-color: #ffffff;
+
+    
+}
+/* FOOTER */
+footer {
+    background: #1F271B;
+
+}
+.footer-icons a{
+    color:#ffffff;
+    font-size: 25px;
+    transition: color 1s ease;
+}
+
+.footer-icons a:hover{
+    color:#145C9E;
+    font-size: 25px;
+    transition: color 0.5s ease;
+}
+footer h5{
+    color: #ffffff;
+}
